@@ -11,6 +11,7 @@
        margin-bottom: 15px;
     	text-align: center;
     	font-size: 50px;
+    	font-family: Arial;
     }
 
     section {
@@ -22,6 +23,7 @@
     p {
         position: relative;
         clear: right;
+        font-family: Arial;
     }
 
     div {
@@ -79,7 +81,7 @@
         padding: 5px;
         border: none;
         background-color: gray;
-        font-family: Helvetica;
+        font-family: Arial;
         color: black;
         margin: 3px ;
         height: 150px;
@@ -90,7 +92,7 @@
         width: 90%;
     }
 
-    /*desktop version*/
+    /*desktop*/
     @media (min-width: 992px) {
         .column-lg-4 {
             float: left;
@@ -98,7 +100,7 @@
         }
     }
 
-    /*tablet version*/
+    /*tablet*/
     @media (min-width: 768px) and (max-width: 991px) {
         .colmn-md-6 {
             float: left;
@@ -115,7 +117,7 @@
         }
     }
 
-    /*mobile version*/
+    /*mobile*/
     @media (max-width: 767px) {
         .colmn-sm-12 {
             float: left;
