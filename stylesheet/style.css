@@ -1,16 +1,19 @@
-body {
-  background-color: lightblue;
-}
-
 h1 {
-  color: white;
-  text-align: center;
+	font-family: Arial;
+	text-align: center;
+}
+h2 {
+	border: 1px solid black;
+	font-family: Arial;
+	margin-top: 0px; 
+	position: absolute;
+	
 }
 
 p {
-  font-family: verdana;
-  font-size: 20px;
+	margin-top: 35px;
+	font-family: Arial;
+	padding: 10px;
+	height: 250px;
 }
-
-
 
